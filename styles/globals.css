@@ -8,3 +8,7 @@
 .min-h-screen {
   min-height: calc(var(--vh, 1vh) * 92);
 }
+.center {
+  @apply left-1/2;
+  
+}
