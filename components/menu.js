@@ -27,7 +27,7 @@ const Menu = () => {
     return (
         <div className="fixed bottom-8 w-full flex justify-center">
             <nav className="rounded-full shadow mx-auto flex flex-row bg-gray-100 dark:bg-gray-800 p-1.5">
-                {NavList.map(({title, href}) => <MenuItem title={title} href={href} active={router.asPath===href} />)}
+                {NavList.map(({title, href}, key) => <MenuItem title={title} href={href} active={router.asPath===href} key={key} />)}
                 <DarkMode />
                 {router.query.name}
             </nav>

@@ -8,6 +8,7 @@ const ProCard = ({title, img, desc, link}) => {
             <Image
                 className="rounded-t" 
                 src={img}
+                alt={title}
                 width={1886}
                 height={911}
                  />

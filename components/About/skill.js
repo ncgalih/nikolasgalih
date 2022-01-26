@@ -7,7 +7,7 @@ const Skill = ({title, tech}) => {
             <div 
                 className={`mx-auto xs:mx-0 sm:mx-0 grid grid-cols-3 xs:grid-cols-4 sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 
                     justify-items-center gap-4 w-fit`}>
-                {tech.map(({...stack}) => <Stack {...stack} />)}
+                {tech.map(({...stack}, key) => <Stack {...stack} key={key} />)}
             </div>
         </div>
     )

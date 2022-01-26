@@ -1,16 +1,24 @@
 import Aboutme from "../components/About/aboutme";
 import Contact from "../components/About/contact";
 import Skill from "../components/About/skill";
+import Meta from "../components/meta";
 
 const About = () => {
     
     return (
-        <div className="px-6 sm:px-12 md:px-20 lg:px-28 pt-8 pb-28">
-            <Aboutme {...about} />
-            <Skill {...skill} />
-            <Contact {...contact} />
-        </div>
+        <>
+            <Meta meta={meta} />
+            <div className="px-6 sm:px-12 md:px-20 lg:px-28 pt-8 pb-28">
+                <Aboutme {...about} />
+                <Skill {...skill} />
+                <Contact {...contact} />
+            </div>
+        </>
     )
+}
+const meta = {
+    title: 'Nikolas Galih - about',
+    desc: 'I am Nikolas Galih Saputro. I am an Information Engineering student at Universitas Gadjah Mada'
 }
 const about = { 
     title: 'About me',
