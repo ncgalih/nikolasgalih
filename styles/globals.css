@@ -12,3 +12,24 @@
   @apply left-1/2;
   
 }
+.react {
+  @apply group-hover:fill-sky-500
+}
+.html {
+  @apply group-hover:fill-orange-600
+}
+.css {
+  @apply group-hover:fill-blue-500
+}
+.js {
+  @apply group-hover:fill-yellow-500
+}
+.next {
+  @apply group-hover:fill-gray-500
+}
+.strapi {
+  @apply group-hover:fill-violet-500
+}
+.tailwind {
+  @apply group-hover:fill-sky-400
+}

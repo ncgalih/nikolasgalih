@@ -22,20 +22,21 @@ const meta = {
 }
 const about = { 
     title: 'About me',
-    desc: 'I am a student of information engineering at UGM batch 2021. I am interested in software engineering especially web development.'
+    desc: `I am a student of information engineering at UGM batch 2021. I am interested in software engineering especially web development.
+            Keen to collaborate in web development project`
 }
 import { FaReact, FaHtml5, FaCss3, FaJs } from 'react-icons/fa'
 import { SiNextdotjs, SiStrapi, SiTailwindcss } from 'react-icons/si'
 const skill = {
     title: 'Skill and TechStack',
     tech: [
-        {title: 'React', Icon: FaReact, className: 'fill-sky-500'},
-        {title: 'Html', Icon: FaHtml5, className: 'fill-orange-600'},
-        {title: 'CSS', Icon: FaCss3, className: 'fill-blue-500'},
-        {title: 'Javascript', Icon: FaJs, className: 'fill-yellow-500'},
-        {title: 'Next', Icon: SiNextdotjs, className: 'fill-gray-900 dark:fill-white'},
-        {title: 'Tailwind', Icon: SiTailwindcss, className: 'fill-sky-400'},
-        {title: 'Strapi', Icon: SiStrapi, className: 'fill-violet-500'},
+        {title: 'React', Icon: FaReact, className: 'react'},
+        {title: 'Html', Icon: FaHtml5, className: 'html'},
+        {title: 'CSS', Icon: FaCss3, className: 'css'},
+        {title: 'Javascript', Icon: FaJs, className: 'js'},
+        {title: 'Next', Icon: SiNextdotjs, className: 'next'},
+        {title: 'Tailwind', Icon: SiTailwindcss, className: 'tailwind'},
+        {title: 'Strapi', Icon: SiStrapi, className: 'strapi'},
     ]
 }
 const contact = {
