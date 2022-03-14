@@ -13,7 +13,7 @@ const Project = () => {
 }
 const meta = {
     title: 'Nikolas Galih - Projects',
-    desc: 'I am Nikolas Galih Saputro. I am an Information Engineering student at Universitas Gadjah Mada'
+    desc: 'Projects by Nikolas Galih'
 }
 const github = 'https://github.com/ncgalih'
 const projects = [

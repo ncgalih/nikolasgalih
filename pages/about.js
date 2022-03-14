@@ -22,8 +22,7 @@ const meta = {
 }
 const about = { 
     title: 'About me',
-    desc: `I am a student of information engineering at UGM batch 2021. I am interested in software engineering especially web development.
-            Keen to collaborate in web development project`
+    desc: `My name is Nikolas Galih Saputro Anugrah Utomo. I am a student of information engineering at UGM batch 2021. I am interested in software engineering especially web development.`
 }
 import { FaReact, FaHtml5, FaCss3, FaJs } from 'react-icons/fa'
 import { SiNextdotjs, SiStrapi, SiTailwindcss } from 'react-icons/si'

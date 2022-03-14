@@ -11,6 +11,7 @@ const Home = ({name, desc, greet, img, linkedin, github}) => {
                     src={img}
                     height={700}
                     width={700}
+                    alt="Nikolas Galih Saputro"
                     layout="responsive" />
                 </div>
             </div>
