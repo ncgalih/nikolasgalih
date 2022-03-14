@@ -6,7 +6,7 @@ const MenuItem = ({href, title, active}) => {
     return (
         <Link href={href}>
             <button 
-                className={`py-1 rounded-full outline-red-500  outline-1
+                className={`py-1 rounded-full outline-red-500 outline-1 transition-colors duration-300
                     ${active
                         ?'bg-red-500 px-4 text-white'
                         :'px-3 bg-none text-gray-700 hover:text-red-500 dark:text-gray-300 dark:hover:text-red-500'}`}>

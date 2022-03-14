@@ -1,8 +1,6 @@
-import Head from 'next/head'
 import Homepage from '../components/home'
-import Menu from '../components/menu'
 import Meta from '../components/meta'
-import profil from '../assets/profil.png'
+import profil from '../assets/ncprofil.png'
 
 export default function Home() {
   return (

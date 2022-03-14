@@ -4,13 +4,15 @@ import { SiGithub, SiLinkedin } from 'react-icons/si'
 const Home = ({name, desc, greet, img, linkedin, github}) => {
     return (
         <div className="h-[75vh] md:h-[90vh] grid grid-cols-1 md:grid-cols-2 mx-6 sm:mx-12 md:mx-20 gap-10 md:items-center">
-            <div className="md:order-2 w-48 h-48 rounded bg-gray-200 dark:bg-gray-800 overflow-visible justify-self-center self-end md:self-center">
+            <div className="md:order-2 w-56 h-48 relative mt-20 md:mt-0 rounded bg-gray-200 dark:bg-gray-800 overflow-visible justify-self-center self-end md:self-center">
+                <div className="w-72 h-72 right-0 bottom-0 absolute">
                 <Image
-                    className=""
+                    className="bg-opacity-20 scale-110 hover:scale-125 transition-transform duration-300"
                     src={img}
                     height={700}
                     width={700}
                     layout="responsive" />
+                </div>
             </div>
             <div className="md:order-1">
                 <h4 className="text-xl mb-1 text-gray-700 dark:text-gray-300">{greet}</h4>
