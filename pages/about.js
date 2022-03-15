@@ -18,11 +18,11 @@ const About = () => {
 }
 const meta = {
     title: 'Nikolas Galih - about',
-    desc: 'I am Nikolas Galih Saputro. I am an Information Engineering student at Universitas Gadjah Mada'
+    desc: 'I am Nikolas Galih Saputro Anugrah Utomo. I am an Information Engineering student at Universitas Gadjah Mada'
 }
 const about = { 
     title: 'About me',
-    desc: `My name is Nikolas Galih Saputro Anugrah Utomo. I am a student of information engineering at UGM batch 2021. I am interested in software engineering especially web development.`
+    desc: `I am a student of information engineering at UGM batch 2021. I am interested in software engineering especially web development.`
 }
 import { FaReact, FaHtml5, FaCss3, FaJs } from 'react-icons/fa'
 import { SiNextdotjs, SiStrapi, SiTailwindcss } from 'react-icons/si'

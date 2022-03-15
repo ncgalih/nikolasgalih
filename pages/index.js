@@ -12,11 +12,11 @@ export default function Home() {
 }
 const meta = {
   title: 'Nikolas Galih',
-  desc: 'I am Nikolas Galih Saputro. I am an Information Engineering student at Universitas Gadjah Mada'
+  desc: 'I am Nikolas Galih Saputro Anugrah Utomo. I am an Information Engineering student at Universitas Gadjah Mada'
 }
 const greet = 'Hi, I am'
 const name = 'Nikolas Galih'
-const desc = "Hi, I am Nikolas Galih Saputro Anugrah Utomo. I am a student of information engineering at UGM batch 2021. I am interested in software engineering especially web development."
+const desc = "I am a student of information engineering at UGM batch 2021. I am interested in software engineering especially web development."
 const github = 'https://github.com/ncgalih'
 const linkedin = 'https://linkedin.com/in/nikolas-galih-saputro-a-602405222'
  
